@@ -24,16 +24,33 @@ int main()
 	//循环语句
 	//while
 
-	int giao = 0;
-	printf("你会选择去敲代码吗？（选择1 or 0）:>");
-	scanf("%d", &giao);
-	if (giao == 1)
+	//int giao = 0;
+	//printf("你会选择去敲代码吗？（选择1 or 0）:>");
+	//scanf("%d", &giao);
+	//if (giao == 1)
+	//{
+	//	printf("坚持，会有好offer\n");
+	//}
+	//else
+	//{
+	//	printf("回家卖红薯");
+	//}
+	int line = 0;
+	while (line < 3000)
 	{
-		printf("坚持，会有好offer\n");
+		
+		printf("写代码%d\n" );
+		line++;
+
 	}
-	else
+	if (line < 3000)
 	{
-		printf("回家卖红薯");
+		printf("好offer");
+
+	}
+	if (line == 3000)
+	{
+		printf("好offer\n");
 	}
 	return 0;
 
