@@ -1,6 +1,8 @@
 #include<iostream>
+#include<string>
 #include"5_28.h"//与头文件联动
 #define pi 3.14//一直占用空间
+constexpr int Square(int nuber) { return nuber * nuber; }
 using namespace std;
 
 //constexpr double gg() { return 22.0 / 7.0; } 
@@ -48,6 +50,14 @@ int main()
 	const int aa = 777; //const 修饰过的变量，不可以修改。
 	//枚举
 	//const int return; //不可以用关键字
-	
+	//数组，一组元素它们形成一个整体。
+	//数组中所有元素的类型都相同。
+	//静态数组：
+	int arrayNumberr[5];
+	int arrayNumber01[6] = { 0 };//开辟了一个数组，有6个int,全部都是0.
+	int arrayNumber02[8] = { 2,-5,3 };
+
+	const int arrayNum = 6;
+	int arraynumber03[arrayNum] = {};//定义静态数组的大小，需要用常量，不可以用变量。
 	return 0;
 }
