@@ -1,2 +1,3 @@
 ﻿  6_5.cpp
+E:\Cpp\C_Code\6_5\6_5\6_5.cpp(123,37): warning C4554: “<<”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
   6_5.vcxproj -> E:\Cpp\C_Code\6_5\Debug\6_5.exe
