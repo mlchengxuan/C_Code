@@ -54,13 +54,13 @@ int main()
 	//int number003 = number001 % number002;
 	//cout << number003 << endl;
 	//++递增   --递减
-	int number = 0;
-	int number01 = number++;  //后缀递增
-	cout << number01 << endl;  //0
-	cout << number << endl;    //1
-	int number02 = ++number01;
-	cout << number02 << endl;  //1
-	cout << number01 << endl; //1
+	//int number = 0;
+	//int number01 = number++;  //后缀递增
+	//cout << number01 << endl;  //0
+	//cout << number << endl;    //1
+	//int number02 = ++number01;
+	//cout << number02 << endl;  //1
+	//cout << number01 << endl; //1
 
 	//后缀递增或递减   先做赋值，后做递增或递减
 	// 前缀递增或递减  先做递增或递减，后做赋值
@@ -78,51 +78,51 @@ int main()
 	//cout << isBool01 << endl;
 
 	//  <  >  <=  >= 
-	int  number0001 = 20;
-	bool isBool01 = (number0001 < 100);
-	cout <<isBool01 << endl;
+	//int  number0001 = 20;
+	//bool isBool01 = (number0001 < 100);
+	//cout <<isBool01 << endl;
 	//NOT (!)  AND(&&)   OR (||)  XOR(^)
-	bool isCar = true;
-	bool isHouse = true;
-	cout << "选择条件" << endl;
-	cin >> isCar >> isHouse;
-	if (isCar && isHouse)
-	{
-		cout << "有房有车" << endl;
+	//bool isCar = true;
+	//bool isHouse = true;
+	//cout << "选择条件" << endl;
+	//cin >> isCar >> isHouse;
+	//if (isCar && isHouse)
+	//{
+	//	cout << "有房有车" << endl;
 
-	}
-	if (isCar && !isHouse)
-	{
-		cout << "有车没房" << endl;
+	//}
+	//if (isCar && !isHouse)
+	//{
+	//	cout << "有车没房" << endl;
 
-	}
-	if (!isCar && isHouse)
-	{
-		cout << "有房没车" << endl;
-	}
-	if (!isCar || !isHouse)
-	{
-		cout << "没车或者没房" << endl;
-	}
+	//}
+	//if (!isCar && isHouse)
+	//{
+	//	cout << "有房没车" << endl;
+	//}
+	//if (!isCar || !isHouse)
+	//{
+	//	cout << "没车或者没房" << endl;
+	//}
 	//按位运算符  ~  &  |  ^
-	cout << "输入0-255" << endl;
-	unsigned short inputNumber = 0;
-	cin >> inputNumber;
-	bitset<8>inputBits(inputNumber);
-	cout << inputNumber << "的二进制为：" << inputBits << endl;
+	//cout << "输入0-255" << endl;
+	//unsigned short inputNumber = 0;
+	//cin >> inputNumber;
+	//bitset<8>inputBits(inputNumber);
+	//cout << inputNumber << "的二进制为：" << inputBits << endl;
 	//按位左移动<<  右移动>>
-	int nb = 100;
-	int nb1 = nb << 1;
-	cout << nb1 << endl;
+	//int nb = 100;
+	//int nb1 = nb << 1;
+	//cout << nb1 << endl;
 
-	int nb6 = 60;
-	int nb7 = 2;
-	nb6 += nb7;
-	cout << nb6 << endl;
+	//int nb6 = 60;
+	//int nb7 = 2;
+	//nb6 += nb7;
+	//cout << nb6 << endl;
 	//运算符优先级
-	int nb8 = 5 * 15 + 20 - 10 * 5 << 2;
+	//int nb8 = 5 * 15 + 20 - 10 * 5 << 2;
 
-	cout << nb8 << endl;
+	//cout << nb8 << endl;
 
 	return 0;
 }
